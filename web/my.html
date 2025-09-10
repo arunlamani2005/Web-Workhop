@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arun Lamani | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Arun Lamani</h1>
+      <p>CSE 3rd Year Student</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m <strong>Arun Lamani</strong>, a Computer Science and Engineering student currently in my 3rd year.  
+      I am passionate about web development, problem solving, and building creative projects.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>C / C++</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Campus Navigation System</h3>
+        <p>A web app to help students and visitors navigate to college departments and facilities.</p>
+      </div>
+      <div class="project-card">
+        <h3>Student Result Database</h3>
+        <p>A simple database management project for storing and viewing student results.</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>This portfolio itself is a project built using only HTML and CSS.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:arunlamani125@gmail.com">arunlamani125@gmail.com</a></p>
+    <p>Phone: +91 6363598291</p>
+    <p>GitHub: <a href="https://github.com/arunlamani2005">github.com/arunlamani2005</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/arun-nandappa-lamani-3079a2308">linkedin.com/in/arunlamani125</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Arun Lamani | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").innerText = new Date().getFullYear();
+  </script>
+</body>
+</html>
