@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio-Data | Arun Lamani</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      color: #222;
+    }
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #0f4c81;
+      margin-bottom: 20px;
+    }
+    h2 {
+      margin-top: 25px;
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: #0f4c81;
+      border-bottom: 2px solid #e5eaf0;
+      padding-bottom: 4px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    td {
+      padding: 10px;
+      border: 1px solid #e5eaf0;
+      vertical-align: top;
+    }
+    td.label {
+      width: 30%;
+      font-weight: bold;
+      background: #f0f4f9;
+    }
+    .print-btn {
+      display: inline-block;
+      padding: 8px 14px;
+      background: #0f4c81;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    @media print {
+      .print-btn { display: none; }
+      body { background: #fff; }
+      .container { box-shadow: none; margin: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bio-Data</h1>
+
+    <h2>Personal Information</h2>
+    <table>
+      <tr><td class="label">Full Name</td><td>Arun Nandappa Lamani</td></tr>
+      <tr><td class="label">Father’s Name</td><td>Mr. Nandappa Lamani</td></tr>
+      <tr><td class="label">Mother’s Name</td><td>Mrs. Saroja Lamani</td></tr>
+      <tr><td class="label">Date of Birth</td><td>02 April 2005</td></tr>
+      <tr><td class="label">Gender</td><td>Male</td></tr>
+      <tr><td class="label">Nationality</td><td>Indian</td></tr>
+      <tr><td class="label">Marital Status</td><td>Single</td></tr>
+      <tr><td class="label">Languages Known</td><td>English, Kannada, Hindi</td></tr>
+    </table>
+
+    <h2>Contact Details</h2>
+    <table>
+      <tr><td class="label">Address</td><td>Haveri, Karnataka, India</td></tr>
+      <tr><td class="label">Phone</td><td>+91 6363598291</td></tr>
+      <tr><td class="label">Email</td><td>arunlamani125@gmail.com</td></tr>
+    </table>
+
+    <h2>Educational Qualification</h2>
+    <table>
+      <tr><td class="label">Course</td><td>B.Ein Computer Science (3rd Year)</td></tr>
+      <tr><td class="label">University</td><td>Visvesvaraya Technological University</td></tr>
+      <tr><td class="label">Year of Passing</td><td>2027 (Expected)</td></tr>
+    </table>
+
+    <h2>Skills</h2>
+    <table>
+      <tr><td class="label">Technical</td><td>HTML, CSS, JavaScript, Node.js, SQL, React</td></tr>
+      <tr><td class="label">Soft Skills</td><td>Teamwork, Problem-solving, Communication</td></tr>
+    </table>
+
+    <h2>Declaration</h2>
+    <p>I hereby declare that the above information is true to the best of my knowledge and belief.</p>
+    <p style="margin-top:30px;"><strong>Date:</strong> ___________<br><strong>Place:</strong> ___________</p>
+
+    <p style="margin-top:40px;"><strong>Signature:</strong> ___________________</p>
+
+    <a href="#" class="print-btn" onclick="window.print();return false;">Print / Save as PDF</a>
+  </div>
+</body>
+</html>
